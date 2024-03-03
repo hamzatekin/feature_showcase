@@ -1,0 +1,56 @@
+.featureButton {
+  background: transparent;
+  border: 0;
+  padding: 0;
+}
+
+.featureButton:hover {
+  cursor: pointer;
+}
+
+.featureContent {
+  padding: 35px 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  scroll-snap-align: center;
+  border-left: 1px solid #00000014;
+  outline-color: transparent;
+  transition: outline-color 1s ease;
+}
+
+.featureContent:hover {
+  outline: 2px solid var(--color-blue);
+  outline-offset: -2px;
+}
+
+.featureContentActive {
+  padding: 35px 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 1rem;
+  scroll-snap-align: center;
+  border-left: 1px solid #00000014;
+  background: #f7fbff;
+  outline: none;
+}
+
+.featureItemIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featureItemText {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #000000;
+  text-wrap: nowrap;
+}
